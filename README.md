@@ -1,35 +1,84 @@
 ## Getting Started
 
-Inside of Unreal go to Tools.
+1. Inside of Unreal go to Tools.
 
-Select New C++ Class.
+2. Select New C++ Class...
 
-Select Actor.
+3. Select Actor and click on Next.
 
-Rename the actor (MovingPlatform).
+<br>
 
-Press Create Class.
+<div align="center">
+<img src="images/image1.png">
 
-Close UE Editor.
+<img src="images/image2.png">
+</div>
 
-Open VS Code.
+<br>
+
+4. Rename the actor (MovingPlatform).
+
+5. Press Create Class.
+
+<br>
+
+<div align="center">
+
+<img src="images/image3.png">
+
+</div>
+
+<br>
+
+6. Close UE Editor.
+
+7. Open VS Code.
+
+<br>
 
 <a name="compiling-the-editor"></a>
 ## Compiling The Editor
 
-Inside VS Code Select Terminal.
+8. Inside VS Code Select Terminal.
 
-Run Build Task (Ctrl + Shift + B).
+9. Select Run Build Task (Ctrl + Shift + B).
 
-Select [Project Name + Win64 Development Build].
+10. Select [Project Name + Win64 Development Build].
 
-Wait for Terminal to finish compiling.
+<br>
 
-Reopen UE Editor.
+<div align="center">
+<img src="images/image4.png">
 
-Drag C++ Actor (MovingPlatform) on to scene.
+<img src="images/image4_1.png">
+</div>
 
-Inside VS Code under MovingPlatform.h add: 
+<br>
+
+11. Wait for Terminal to finish compiling.
+
+<br>
+
+<div align="center">
+<img src="images/image5.png">
+</div>
+
+<br>
+
+12. Reopen UE Editor.
+
+13. Drag C++ Actor (MovingPlatform) on to scene.
+
+<br>
+<div align="center">
+<img src="images/image6.png">
+</div>
+
+<br>
+
+14. Back to VS Code inside MovingPlatform.h script add: 
+
+<br>
 
 ``` C
 // Fill out your copyright notice in the Description page of Project Settings.
@@ -69,18 +118,46 @@ public:
 };
 
 ```
-Save the script.
 
-Inside of UE, bottom right, press Live Coding.
+<br>
 
-Wait for recompile.
+15. Save the script.
 
-Check on the actor's Detail panel to see if the variables are added onto MyFirstActor.
+16. Inside of UE, bottom right, press Live Coding.
+
+<br>
+
+<div align="center">
+<img src="images/image7.png">
+</div>
+
+<br>
+
+17. Wait for Live Coding to finish compiling.
+
+<br>
+
+<div align="center">
+<img src="images/image8.png">
+</div>
+
+<br>
+
+18. If there are no compiler errors, check on the MovingPlatform Details Panel to see if the variables are added onto MyFirstActor.
+
+<br>
+
+<div align="center">
+<img src="images/image9.png">
+</div>
+
+<br>
+<hr>
 
 ## Common Issues with Live Coding
 
-Data is lost when reloading project.
+Data lost when reloading/reopening project. If for some reasons you realize that the previous data sets that you have created is lost.
 
-Close UE Editor.
+1. Close UE Editor.
 
-Repeat <a href="#compiling-the-editor">Compiling The Editor</a>
+2. Repeat <a href="#compiling-the-editor">Compiling The Editor</a>
